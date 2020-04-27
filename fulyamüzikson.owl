@@ -1,0 +1,310 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/fulya/ontologies/2020/3/untitled-ontology-13#"
+     xml:base="http://www.semanticweb.org/fulya/ontologies/2020/3/untitled-ontology-13"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-13="http://www.semanticweb.org/fulya/ontologies/2020/3/untitled-ontology-13#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/fulya/ontologies/2020/3/untitled-ontology-13"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/elements"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/elements"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/elements"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/elements -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/elements"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/language -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/language">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/elements"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fulya/ontologies/2020/3/untitled-ontology-13#duration -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/fulya/ontologies/2020/3/untitled-ontology-13#duration"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/fulya/ontologies/2020/3/untitled-ontology-13#Aynı_Sokaklarda -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fulya/ontologies/2020/3/untitled-ontology-13#Aynı_Sokaklarda">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fulya/ontologies/2020/3/untitled-ontology-13#Rap_Müzik"/>
+        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Şanişer</dc:contributor>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Şanişer</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020</dc:date>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Türkçe</dc:language>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02:53</duration>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aynı Sokaklarda</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://open.spotify.com/track/2eIhmj1inaH2P4SYpgYZ78?si=pnjXfeJXRIiVpIoXX_nORg</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fulya/ontologies/2020/3/untitled-ontology-13#Bende_Yoluma_Giderim -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fulya/ontologies/2020/3/untitled-ontology-13#Bende_Yoluma_Giderim">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fulya/ontologies/2020/3/untitled-ontology-13#Pop_Müzik"/>
+        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sezen Aksu</dc:contributor>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sezen Aksu</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2020</dc:date>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Türkçe</dc:language>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">03:21</duration>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bende Yoluma Giderim</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://open.spotify.com/album/7HD0vjloU2aX05iWG69ufX?si=KEZi3EzlSrmJ2RtxdYfZFQ</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fulya/ontologies/2020/3/untitled-ontology-13#Caz_Müzik -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fulya/ontologies/2020/3/untitled-ontology-13#Caz_Müzik">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fulya/ontologies/2020/3/untitled-ontology-13#Türler"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Caz Müzik</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fulya/ontologies/2020/3/untitled-ontology-13#Haykıracak_Nefesim_Kalmasa_Bile -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fulya/ontologies/2020/3/untitled-ontology-13#Haykıracak_Nefesim_Kalmasa_Bile">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fulya/ontologies/2020/3/untitled-ontology-13#Rock_Müzik"/>
+        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manga</dc:contributor>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fikret Şeneş</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1979</dc:date>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Türkçe</dc:language>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">03:28</duration>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haykıracak Nefesim Kalmasa Bile</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://open.spotify.com/track/6cOwhX05OoOtD1ClqB6RQX?si=HGodT0DUTueeJ6lSVTrQBQ</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fulya/ontologies/2020/3/untitled-ontology-13#Little_Girl_Blue -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fulya/ontologies/2020/3/untitled-ontology-13#Little_Girl_Blue">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fulya/ontologies/2020/3/untitled-ontology-13#Caz_Müzik"/>
+        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jeremy Pelt</dc:contributor>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lorenz Hart</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1969</dc:date>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">İngilizce</dc:language>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">07:18</duration>
+        <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Little Girl Blue</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://open.spotify.com/track/7e4cQ65cw0hbgQfbZr9IUD?si=rUcAhlDzTGShdnAnVUa50w</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fulya/ontologies/2020/3/untitled-ontology-13#Müzik -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fulya/ontologies/2020/3/untitled-ontology-13#Müzik"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fulya/ontologies/2020/3/untitled-ontology-13#Nature_Boy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fulya/ontologies/2020/3/untitled-ontology-13#Nature_Boy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fulya/ontologies/2020/3/untitled-ontology-13#Caz_Müzik"/>
+        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Georg Riedel</dc:contributor>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eden Ahbez</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2011</dc:date>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">İngilizce</dc:language>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">04:44</duration>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nature Boy</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://open.spotify.com/track/7hDq6sOZ5Rl1XnSSfoOBRK?si=kfIzYGnNTzCP8kq83LMlXw</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fulya/ontologies/2020/3/untitled-ontology-13#Night_and_Day -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fulya/ontologies/2020/3/untitled-ontology-13#Night_and_Day">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fulya/ontologies/2020/3/untitled-ontology-13#Caz_Müzik"/>
+        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diana Krall</dc:contributor>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cole Porter</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2017</dc:date>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">İngilizce</dc:language>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">04:38</duration>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Night and Day</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://open.spotify.com/track/5gSYmTVASekarEoK4puiRD?si=54FyHkhETlGQOhNZfDXjRA</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fulya/ontologies/2020/3/untitled-ontology-13#One -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fulya/ontologies/2020/3/untitled-ontology-13#One">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fulya/ontologies/2020/3/untitled-ontology-13#Rock_Müzik"/>
+        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Metallica</dc:contributor>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">James Hetfield</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1988</dc:date>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">İngilizce</dc:language>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">07:27</duration>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">One</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://open.spotify.com/track/5IX4TbIR5mMHGE4wiWwKW0?si=aWv6m6EpR-Cm_ftltlE_3g</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fulya/ontologies/2020/3/untitled-ontology-13#Pahalı -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fulya/ontologies/2020/3/untitled-ontology-13#Pahalı">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fulya/ontologies/2020/3/untitled-ontology-13#Rap_Müzik"/>
+        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Murda</dc:contributor>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Laman</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2020</dc:date>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Türkçe</dc:language>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02:12</duration>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pahalı</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://open.spotify.com/track/3Y4QV5j8Ls5bjUfvihi2yn?si=f_4HF0bvR2GIWwB6D5CcIw</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fulya/ontologies/2020/3/untitled-ontology-13#Pop_Müzik -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fulya/ontologies/2020/3/untitled-ontology-13#Pop_Müzik">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fulya/ontologies/2020/3/untitled-ontology-13#Türler"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fulya/ontologies/2020/3/untitled-ontology-13#Rap_Müzik -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fulya/ontologies/2020/3/untitled-ontology-13#Rap_Müzik">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fulya/ontologies/2020/3/untitled-ontology-13#Türler"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fulya/ontologies/2020/3/untitled-ontology-13#Rock_Müzik -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fulya/ontologies/2020/3/untitled-ontology-13#Rock_Müzik">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fulya/ontologies/2020/3/untitled-ontology-13#Türler"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fulya/ontologies/2020/3/untitled-ontology-13#Sarmaşık -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fulya/ontologies/2020/3/untitled-ontology-13#Sarmaşık">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fulya/ontologies/2020/3/untitled-ontology-13#Pop_Müzik"/>
+        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mabel Matiz</dc:contributor>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mabel Matiz</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2018</dc:date>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Türkçe</dc:language>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">04:38</duration>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sarmaşık</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://open.spotify.com/track/4AwMlBuqRr4wF1l4UqyJkg?si=Exl1JqykQKKCAQj1LqJcWQ</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fulya/ontologies/2020/3/untitled-ontology-13#Türler -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fulya/ontologies/2020/3/untitled-ontology-13#Türler">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fulya/ontologies/2020/3/untitled-ontology-13#Müzik"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fulya/ontologies/2020/3/untitled-ontology-13#Can&apos;t_Let_You_Go -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fulya/ontologies/2020/3/untitled-ontology-13#Can&apos;t_Let_You_Go">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fulya/ontologies/2020/3/untitled-ontology-13#Rap_Müzik"/>
+        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Akash</dc:contributor>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Akash</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2020</dc:date>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">İngilizce</dc:language>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">03:19</duration>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Can&apos;t Let You Go</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://open.spotify.com/track/7neqYoI64VIfVAkehVV5Oe?si=3UaPy9NdSTKdcNIK35WfPQ</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fulya/ontologies/2020/3/untitled-ontology-13#Ne_Yapayım_Şimdi_Ben? -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fulya/ontologies/2020/3/untitled-ontology-13#Ne_Yapayım_Şimdi_Ben?">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fulya/ontologies/2020/3/untitled-ontology-13#Pop_Müzik"/>
+        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sezen Aksu</dc:contributor>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sezen Aksu</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2020</dc:date>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Türkçe</dc:language>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">03:11</duration>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ne Yapayım Şimdi Ben?</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://open.spotify.com/album/1x5NXYmFcFuyrIwNnGo8Ls?si=pL32JIKgTDa0J99fvln7hw</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fulya/ontologies/2020/3/untitled-ontology-13#Old_Time_Rock_&amp;_Roll -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fulya/ontologies/2020/3/untitled-ontology-13#Old_Time_Rock_&amp;_Roll">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fulya/ontologies/2020/3/untitled-ontology-13#Rock_Müzik"/>
+        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bob Seger</dc:contributor>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">George Henry Jackson</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1978</dc:date>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">İngilizce</dc:language>
+        <duration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">03:14</duration>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Old Time Rock &amp; Roll</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://open.spotify.com/track/5EOoMWIB9iK4ZpcSex9Ec7?si=57h6QsrVQYKvNCs9sviuoQ</rdfs:seeAlso>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
